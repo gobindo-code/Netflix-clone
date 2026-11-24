@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.background_image{
+    width: 1300px;
+    height: 700px;
+    background-image: url('http://assets.nflxext.com/ffe/siteui/vlv3/cafd79d7-3d44-4558-8d0a-fc447fc3899f/web/BD-en-20261116-TRIFECTA-perspective_58964564-06ea-49ea-99bc-9a9ffa0fd6ab_large.jpg');
+    background-size: cover;
+    
+}
+.navbar{
+    width: 1265px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+   
+}
+.logo{
+    width: 148px;
+    height: 40px;
+     background-image: url('https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAf58AA8Z6nusXt5B-ppRug_vXEqLa657gFe5CBe4jVeSA_CxcsmYrZxZZxXSgwU5KA0aGs7lVPrdcDefw_XxI6W0EFno5krXI88dYw3BUM6HEZRO_N4ZTMzoYhMd-g4S3fo8XIxOME4.svg');
+     background-size: cover;
+     margin-left: 148px;
+}
+.button{
+     height: 32px;
+    width: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-right: 125px;
+    background-color:red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+.button:hover{
+    background-color: rgb(186, 45, 45);
+}
+.button:active{
+    background-color:rgb(145, 8, 8); ;
+}
+#hero{
+    height: 350px;
+    width: 1270px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.h1{
+    
+    width: 588px;
+    height: 150px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+   
+   
+
+}
+.price{
+    width: 500px;
+    height: 25px;
+    color:white;
+    text-align: end;
+    margin: 16px;
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+.test{
+    background-color: rgba(0, 0, 0, 0.566);
+    height:700px ;
+    width: 1300px;
+    
+}
+.ready_to_watch{
+    font-size: 17px;
+    margin-top: 18px;
+}
+.email1{
+    width: 330px;
+    height: 23px;
+    background-color: transparent;
+    margin-top: 20px;
+    color:whitesmoke;
+    font-size: 15px;
+   
+    padding-top: 24px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
