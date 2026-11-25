@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    border: 0;
 }
 
 .background_image{
@@ -41,17 +42,19 @@
     font-weight: 700;
     border: 1px solid transparent;
     border-radius: 4px;
+    font-size: 15px;
     
 }
 .button:hover{
     background-color: rgb(186, 45, 45);
 }
 .button:active{
-    background-color:rgb(145, 8, 8); ;
+    background-color:rgb(145, 8, 8); 
+    animation-name: getsmall;
 }
 #hero{
-    height: 350px;
-    width: 1270px;
+    height: 330px;
+    width: 1455px;
     display: flex;
     justify-content: center;
     
@@ -67,6 +70,8 @@
     text-align: center;
     margin-top: 16px;
     margin-bottom: 16px;
+   
+   
    
    
 
@@ -92,15 +97,59 @@
     margin-top: 18px;
 }
 .email1{
-    width: 330px;
-    height: 23px;
+    width: 360px;
+    height: 20px;
     background-color: transparent;
     margin-top: 20px;
     color:whitesmoke;
     font-size: 15px;
    
-    padding-top: 24px;
-    padding-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     padding-left: 16px;
     padding-right: 16px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+
+    
 }
+@keyframes coloranimate{
+    0%{font-size: 15px; }
+    100%{padding-bottom: 16px; padding-top: 6px; padding-left: 8px; padding-right: 20px;  }
+    100%{font-size: 13px; }
+    
+}
+.email{
+  
+    display: flex;
+    
+}
+
+.email1:focus{
+    
+    animation: coloranimate  0.1s linear    forwards;
+
+    
+
+}
+.get_started{
+    width: 213px;
+    height: 56px;
+    background-color: red;
+    border-radius: 4px;
+    margin-left: 18px;
+    margin-top: 18px;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    
+}
+
+
